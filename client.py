@@ -6,4 +6,4 @@ for num in ips:
     s = socket.socket()
     s.connect((ip_port[0], int(ip_port[1])))
     s.send('here you ddos command')
-    print s.recv(1024)
+    print(s.recv(1024))
